@@ -39,6 +39,9 @@ public class Test3 extends Hook {
     public void step5(){
         stellenangebotePage.inputField("Vorname und Nachname").sendKeys("Jakub Niechaj");
         Assert.assertFalse(stellenangebotePage.applicantNameError.isDisplayed());
+        Assert.assertTrue(stellenangebotePage.applicantEmailError.isDisplayed());
+        Assert.assertTrue(stellenangebotePage.applicantPhoneError.isDisplayed());
+        Assert.assertTrue(stellenangebotePage.coverLetterError.isDisplayed());
     }
 
     @Test
