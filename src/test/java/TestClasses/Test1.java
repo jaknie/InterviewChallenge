@@ -1,4 +1,4 @@
-package testClasses;
+package TestClasses;
 
 import Hook.Hook;
 import org.openqa.selenium.support.ui.ExpectedConditions;
