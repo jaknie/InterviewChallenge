@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automationsuite" parallel="tests" thread-count="2">
+    <listeners>
+        <listener class-name="org.testng.reporters.EmailableReporter"/>
+        <listener class-name="org.testng.reporters.XMLReporter"/>
+    </listeners>
+    <test name="TestCase1Chrome">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="testClasses.Test1"/>
+        </classes>
+    </test>
+    <test name="TestCase1Firefox">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="testClasses.Test1"/>
+        </classes>
+    </test>
+    <test name="TestCase2Chrome">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="testClasses.Test2"/>
+        </classes>
+    </test>
+    <test name="TestCase2Firefox">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="testClasses.Test2"/>
+        </classes>
+    </test>
+    <test name="TestCase3Chrome">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="testClasses.Test3"/>
+        </classes>
+    </test>
+    <test name="TestCase3Firefox">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="testClasses.Test3"/>
+        </classes>
+    </test>
+</suite>

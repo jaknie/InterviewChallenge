@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="52" passed="52" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-16T22:18:56 CEST" name="Automationsuite" finished-at="2023-07-16T22:19:41 CEST" duration-ms="44819">
+    <groups>
+    </groups>
+    <test started-at="2023-07-16T22:18:56 CEST" name="TestCase1Firefox" finished-at="2023-07-16T22:19:18 CEST" duration-ms="21474">
+      <class name="testClasses.Test1">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testClasses.Test1@6a84a97d]" started-at="2023-07-16T22:18:56 CEST" name="setup" finished-at="2023-07-16T22:19:00 CEST" duration-ms="4073" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="step1()[pri:0, instance:testClasses.Test1@6a84a97d]" started-at="2023-07-16T22:19:00 CEST" name="step1" finished-at="2023-07-16T22:19:02 CEST" duration-ms="1891" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step1 -->
+        <test-method signature="step2()[pri:0, instance:testClasses.Test1@6a84a97d]" started-at="2023-07-16T22:19:02 CEST" name="step2" finished-at="2023-07-16T22:19:04 CEST" duration-ms="2212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step2 -->
+        <test-method signature="step3()[pri:0, instance:testClasses.Test1@6a84a97d]" started-at="2023-07-16T22:19:04 CEST" name="step3" finished-at="2023-07-16T22:19:06 CEST" duration-ms="1749" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step3 -->
+        <test-method signature="step4()[pri:0, instance:testClasses.Test1@6a84a97d]" started-at="2023-07-16T22:19:06 CEST" name="step4" finished-at="2023-07-16T22:19:06 CEST" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step4 -->
+        <test-method signature="step5()[pri:0, instance:testClasses.Test1@6a84a97d]" started-at="2023-07-16T22:19:06 CEST" name="step5" finished-at="2023-07-16T22:19:07 CEST" duration-ms="535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step5 -->
+        <test-method signature="step6()[pri:0, instance:testClasses.Test1@6a84a97d]" started-at="2023-07-16T22:19:07 CEST" name="step6" finished-at="2023-07-16T22:19:07 CEST" duration-ms="206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step6 -->
+        <test-method signature="step7()[pri:0, instance:testClasses.Test1@6a84a97d]" started-at="2023-07-16T22:19:07 CEST" name="step7" finished-at="2023-07-16T22:19:14 CEST" duration-ms="6887" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step7 -->
+        <test-method signature="step8()[pri:0, instance:testClasses.Test1@6a84a97d]" started-at="2023-07-16T22:19:14 CEST" name="step8" finished-at="2023-07-16T22:19:16 CEST" duration-ms="1879" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step8 -->
+        <test-method signature="step9()[pri:0, instance:testClasses.Test1@6a84a97d]" started-at="2023-07-16T22:19:16 CEST" name="step9" finished-at="2023-07-16T22:19:16 CEST" duration-ms="259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step9 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testClasses.Test1@6a84a97d]" started-at="2023-07-16T22:19:16 CEST" name="tearDown" finished-at="2023-07-16T22:19:18 CEST" duration-ms="1585" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testClasses.Test1 -->
+    </test> <!-- TestCase1Firefox -->
+    <test started-at="2023-07-16T22:18:56 CEST" name="TestCase1Chrome" finished-at="2023-07-16T22:19:19 CEST" duration-ms="22484">
+      <class name="testClasses.Test1">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testClasses.Test1@696da30b]" started-at="2023-07-16T22:18:56 CEST" name="setup" finished-at="2023-07-16T22:18:58 CEST" duration-ms="2010" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="step1()[pri:0, instance:testClasses.Test1@696da30b]" started-at="2023-07-16T22:18:58 CEST" name="step1" finished-at="2023-07-16T22:19:00 CEST" duration-ms="2138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step1 -->
+        <test-method signature="step2()[pri:0, instance:testClasses.Test1@696da30b]" started-at="2023-07-16T22:19:00 CEST" name="step2" finished-at="2023-07-16T22:19:02 CEST" duration-ms="2029" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step2 -->
+        <test-method signature="step3()[pri:0, instance:testClasses.Test1@696da30b]" started-at="2023-07-16T22:19:02 CEST" name="step3" finished-at="2023-07-16T22:19:05 CEST" duration-ms="3042" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step3 -->
+        <test-method signature="step4()[pri:0, instance:testClasses.Test1@696da30b]" started-at="2023-07-16T22:19:05 CEST" name="step4" finished-at="2023-07-16T22:19:06 CEST" duration-ms="170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step4 -->
+        <test-method signature="step5()[pri:0, instance:testClasses.Test1@696da30b]" started-at="2023-07-16T22:19:06 CEST" name="step5" finished-at="2023-07-16T22:19:08 CEST" duration-ms="2254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step5 -->
+        <test-method signature="step6()[pri:0, instance:testClasses.Test1@696da30b]" started-at="2023-07-16T22:19:08 CEST" name="step6" finished-at="2023-07-16T22:19:08 CEST" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step6 -->
+        <test-method signature="step7()[pri:0, instance:testClasses.Test1@696da30b]" started-at="2023-07-16T22:19:08 CEST" name="step7" finished-at="2023-07-16T22:19:15 CEST" duration-ms="7318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step7 -->
+        <test-method signature="step8()[pri:0, instance:testClasses.Test1@696da30b]" started-at="2023-07-16T22:19:15 CEST" name="step8" finished-at="2023-07-16T22:19:18 CEST" duration-ms="2562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step8 -->
+        <test-method signature="step9()[pri:0, instance:testClasses.Test1@696da30b]" started-at="2023-07-16T22:19:18 CEST" name="step9" finished-at="2023-07-16T22:19:18 CEST" duration-ms="555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step9 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testClasses.Test1@696da30b]" started-at="2023-07-16T22:19:18 CEST" name="tearDown" finished-at="2023-07-16T22:19:19 CEST" duration-ms="230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testClasses.Test1 -->
+    </test> <!-- TestCase1Chrome -->
+    <test started-at="2023-07-16T22:19:18 CEST" name="TestCase2Chrome" finished-at="2023-07-16T22:19:28 CEST" duration-ms="10664">
+      <class name="testClasses.Test2">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testClasses.Test2@6d3a388c]" started-at="2023-07-16T22:19:18 CEST" name="setup" finished-at="2023-07-16T22:19:19 CEST" duration-ms="1087" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="step1()[pri:0, instance:testClasses.Test2@6d3a388c]" started-at="2023-07-16T22:19:19 CEST" name="step1" finished-at="2023-07-16T22:19:21 CEST" duration-ms="2044" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step1 -->
+        <test-method signature="step2()[pri:0, instance:testClasses.Test2@6d3a388c]" started-at="2023-07-16T22:19:21 CEST" name="step2" finished-at="2023-07-16T22:19:21 CEST" duration-ms="41" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step2 -->
+        <test-method signature="step3()[pri:0, instance:testClasses.Test2@6d3a388c]" started-at="2023-07-16T22:19:21 CEST" name="step3" finished-at="2023-07-16T22:19:21 CEST" duration-ms="241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step3 -->
+        <test-method signature="step4()[pri:0, instance:testClasses.Test2@6d3a388c]" started-at="2023-07-16T22:19:21 CEST" name="step4" finished-at="2023-07-16T22:19:23 CEST" duration-ms="2196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step4 -->
+        <test-method signature="step5()[pri:0, instance:testClasses.Test2@6d3a388c]" started-at="2023-07-16T22:19:23 CEST" name="step5" finished-at="2023-07-16T22:19:25 CEST" duration-ms="1290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step5 -->
+        <test-method signature="step6()[pri:0, instance:testClasses.Test2@6d3a388c]" started-at="2023-07-16T22:19:25 CEST" name="step6" finished-at="2023-07-16T22:19:25 CEST" duration-ms="162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step6 -->
+        <test-method signature="step7()[pri:0, instance:testClasses.Test2@6d3a388c]" started-at="2023-07-16T22:19:25 CEST" name="step7" finished-at="2023-07-16T22:19:27 CEST" duration-ms="2079" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step7 -->
+        <test-method signature="step8()[pri:0, instance:testClasses.Test2@6d3a388c]" started-at="2023-07-16T22:19:27 CEST" name="step8" finished-at="2023-07-16T22:19:28 CEST" duration-ms="1217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step8 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testClasses.Test2@6d3a388c]" started-at="2023-07-16T22:19:28 CEST" name="tearDown" finished-at="2023-07-16T22:19:28 CEST" duration-ms="284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testClasses.Test2 -->
+    </test> <!-- TestCase2Chrome -->
+    <test started-at="2023-07-16T22:19:28 CEST" name="TestCase3Chrome" finished-at="2023-07-16T22:19:33 CEST" duration-ms="5051">
+      <class name="testClasses.Test3">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testClasses.Test3@2fd1433e]" started-at="2023-07-16T22:19:28 CEST" name="setup" finished-at="2023-07-16T22:19:29 CEST" duration-ms="989" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="step1()[pri:0, instance:testClasses.Test3@2fd1433e]" started-at="2023-07-16T22:19:29 CEST" name="step1" finished-at="2023-07-16T22:19:31 CEST" duration-ms="1542" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step1 -->
+        <test-method signature="step2()[pri:0, instance:testClasses.Test3@2fd1433e]" started-at="2023-07-16T22:19:31 CEST" name="step2" finished-at="2023-07-16T22:19:31 CEST" duration-ms="41" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step2 -->
+        <test-method signature="step3()[pri:0, instance:testClasses.Test3@2fd1433e]" started-at="2023-07-16T22:19:31 CEST" name="step3" finished-at="2023-07-16T22:19:32 CEST" duration-ms="742" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step3 -->
+        <test-method signature="step4()[pri:0, instance:testClasses.Test3@2fd1433e]" started-at="2023-07-16T22:19:32 CEST" name="step4" finished-at="2023-07-16T22:19:32 CEST" duration-ms="473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step4 -->
+        <test-method signature="step5()[pri:0, instance:testClasses.Test3@2fd1433e]" started-at="2023-07-16T22:19:32 CEST" name="step5" finished-at="2023-07-16T22:19:32 CEST" duration-ms="165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step5 -->
+        <test-method signature="step6()[pri:0, instance:testClasses.Test3@2fd1433e]" started-at="2023-07-16T22:19:32 CEST" name="step6" finished-at="2023-07-16T22:19:33 CEST" duration-ms="246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step6 -->
+        <test-method signature="step7()[pri:0, instance:testClasses.Test3@2fd1433e]" started-at="2023-07-16T22:19:33 CEST" name="step7" finished-at="2023-07-16T22:19:33 CEST" duration-ms="388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step7 -->
+        <test-method signature="step8()[pri:0, instance:testClasses.Test3@2fd1433e]" started-at="2023-07-16T22:19:33 CEST" name="step8" finished-at="2023-07-16T22:19:33 CEST" duration-ms="86" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step8 -->
+        <test-method signature="step9()[pri:0, instance:testClasses.Test3@2fd1433e]" started-at="2023-07-16T22:19:33 CEST" name="step9" finished-at="2023-07-16T22:19:33 CEST" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step9 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testClasses.Test3@2fd1433e]" started-at="2023-07-16T22:19:33 CEST" name="tearDown" finished-at="2023-07-16T22:19:33 CEST" duration-ms="283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testClasses.Test3 -->
+    </test> <!-- TestCase3Chrome -->
+    <test started-at="2023-07-16T22:19:19 CEST" name="TestCase2Firefox" finished-at="2023-07-16T22:19:36 CEST" duration-ms="17355">
+      <class name="testClasses.Test2">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testClasses.Test2@57af006c]" started-at="2023-07-16T22:19:19 CEST" name="setup" finished-at="2023-07-16T22:19:22 CEST" duration-ms="3209" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="step1()[pri:0, instance:testClasses.Test2@57af006c]" started-at="2023-07-16T22:19:22 CEST" name="step1" finished-at="2023-07-16T22:19:25 CEST" duration-ms="2784" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step1 -->
+        <test-method signature="step2()[pri:0, instance:testClasses.Test2@57af006c]" started-at="2023-07-16T22:19:25 CEST" name="step2" finished-at="2023-07-16T22:19:25 CEST" duration-ms="41" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step2 -->
+        <test-method signature="step3()[pri:0, instance:testClasses.Test2@57af006c]" started-at="2023-07-16T22:19:25 CEST" name="step3" finished-at="2023-07-16T22:19:25 CEST" duration-ms="811" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step3 -->
+        <test-method signature="step4()[pri:0, instance:testClasses.Test2@57af006c]" started-at="2023-07-16T22:19:25 CEST" name="step4" finished-at="2023-07-16T22:19:26 CEST" duration-ms="853" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step4 -->
+        <test-method signature="step5()[pri:0, instance:testClasses.Test2@57af006c]" started-at="2023-07-16T22:19:26 CEST" name="step5" finished-at="2023-07-16T22:19:28 CEST" duration-ms="1361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step5 -->
+        <test-method signature="step6()[pri:0, instance:testClasses.Test2@57af006c]" started-at="2023-07-16T22:19:28 CEST" name="step6" finished-at="2023-07-16T22:19:28 CEST" duration-ms="299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step6 -->
+        <test-method signature="step7()[pri:0, instance:testClasses.Test2@57af006c]" started-at="2023-07-16T22:19:28 CEST" name="step7" finished-at="2023-07-16T22:19:33 CEST" duration-ms="5430" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step7 -->
+        <test-method signature="step8()[pri:0, instance:testClasses.Test2@57af006c]" started-at="2023-07-16T22:19:33 CEST" name="step8" finished-at="2023-07-16T22:19:35 CEST" duration-ms="1079" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step8 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testClasses.Test2@57af006c]" started-at="2023-07-16T22:19:35 CEST" name="tearDown" finished-at="2023-07-16T22:19:36 CEST" duration-ms="1468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testClasses.Test2 -->
+    </test> <!-- TestCase2Firefox -->
+    <test started-at="2023-07-16T22:19:33 CEST" name="TestCase3Firefox" finished-at="2023-07-16T22:19:41 CEST" duration-ms="7628">
+      <class name="testClasses.Test3">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testClasses.Test3@212b5695]" started-at="2023-07-16T22:19:33 CEST" name="setup" finished-at="2023-07-16T22:19:36 CEST" duration-ms="2946" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="step1()[pri:0, instance:testClasses.Test3@212b5695]" started-at="2023-07-16T22:19:36 CEST" name="step1" finished-at="2023-07-16T22:19:38 CEST" duration-ms="1393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step1 -->
+        <test-method signature="step2()[pri:0, instance:testClasses.Test3@212b5695]" started-at="2023-07-16T22:19:38 CEST" name="step2" finished-at="2023-07-16T22:19:38 CEST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step2 -->
+        <test-method signature="step3()[pri:0, instance:testClasses.Test3@212b5695]" started-at="2023-07-16T22:19:38 CEST" name="step3" finished-at="2023-07-16T22:19:38 CEST" duration-ms="745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step3 -->
+        <test-method signature="step4()[pri:0, instance:testClasses.Test3@212b5695]" started-at="2023-07-16T22:19:38 CEST" name="step4" finished-at="2023-07-16T22:19:39 CEST" duration-ms="377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step4 -->
+        <test-method signature="step5()[pri:0, instance:testClasses.Test3@212b5695]" started-at="2023-07-16T22:19:39 CEST" name="step5" finished-at="2023-07-16T22:19:39 CEST" duration-ms="54" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step5 -->
+        <test-method signature="step6()[pri:0, instance:testClasses.Test3@212b5695]" started-at="2023-07-16T22:19:39 CEST" name="step6" finished-at="2023-07-16T22:19:39 CEST" duration-ms="74" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step6 -->
+        <test-method signature="step7()[pri:0, instance:testClasses.Test3@212b5695]" started-at="2023-07-16T22:19:39 CEST" name="step7" finished-at="2023-07-16T22:19:40 CEST" duration-ms="768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step7 -->
+        <test-method signature="step8()[pri:0, instance:testClasses.Test3@212b5695]" started-at="2023-07-16T22:19:40 CEST" name="step8" finished-at="2023-07-16T22:19:40 CEST" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step8 -->
+        <test-method signature="step9()[pri:0, instance:testClasses.Test3@212b5695]" started-at="2023-07-16T22:19:40 CEST" name="step9" finished-at="2023-07-16T22:19:40 CEST" duration-ms="244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step9 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testClasses.Test3@212b5695]" started-at="2023-07-16T22:19:40 CEST" name="tearDown" finished-at="2023-07-16T22:19:41 CEST" duration-ms="983" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testClasses.Test3 -->
+    </test> <!-- TestCase3Firefox -->
+  </suite> <!-- Automationsuite -->
+</testng-results>
