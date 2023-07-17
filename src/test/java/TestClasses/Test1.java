@@ -59,7 +59,6 @@ public class Test1 extends Hook {
     @Test
     public void step6() {
         Assert.assertTrue(mainPage.englishFlag.isDisplayed());
-        //dopisać
     }
 
     @Test
@@ -87,11 +86,6 @@ public class Test1 extends Hook {
         Assert.assertEquals(getPageHeaderStep3, getPageHeaderStep9);
         Assert.assertEquals(getPageURLStep3, getPageURLStep9);
         Assert.assertEquals(getTextListStep3, getGetTextListStep9);
-    }
-
-    @AfterClass
-    public void tearDown() {
-        driver.quit();
     }
 
 }
